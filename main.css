@@ -1,0 +1,332 @@
+html,body{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    background:#EBEFF4;
+  }
+  .container-fluid{
+      margin:0;
+      padding:0;
+      height:100%;
+  }
+  .bg{
+      background:#264E66;
+      padding:20px;
+      text-align: center;
+      color:white;
+      min-height:100%;
+      margin:0;
+      padding:0;
+  }
+  .nav ul{
+      list-style: none;
+      margin:0;
+      padding:0;
+      padding-top:40px;
+  }
+  
+  .nav ul li{
+      margin-bottom:40px;
+  }
+  .nav li p{
+      margin-top:10px;
+      font-size:1vw;
+  }
+  .nav i{
+        margin:0;
+        padding:0;
+        color:#54D0FF;
+        font-size:3.2vw;
+  }
+  .head{
+    background:#FFFFFF;
+    min-height:50px; 
+    max-height: auto;
+    box-shadow: 0px 0px 1px 0px lightgray;
+    color:#354650;
+    line-height: 50px;
+    
+  }
+  .bBtn{
+      font-weight: bold;
+  }
+  .bBtn i{
+    color:#54D0FF;
+    margin-left:20px;
+  }
+  .inputGroup {
+    display:inline-flex;
+    height:35px;
+    vertical-align: middle;
+}
+.inputGroup input{
+    line-height: 35px;
+    width:115px;
+    vertical-align: middle;
+    margin:0 auto;
+    border-radius:5px 0px 0px 5px;
+    border:1px solid #DBE5EB;
+    background:#F5F9FC;
+    color:#748C9C;
+    padding-left:10px;
+}
+.inputGroup button{
+    line-height: 35px;
+    width:40px;
+    border-radius:0px 5px 5px 0px;
+    background:#54D0FF;
+    border:1px #54D0FF;
+    color:white;
+}
+.score i{
+    color:#54D0FF;
+    margin-right:10px;
+    margin-left:5px;
+}
+.user i{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.warn{
+    background:#FFEFF2 !important;
+}
+i.warn{
+    color:red !important;
+}
+.box {
+    width: 1135px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: white;
+    padding: 20px;
+    color: #728B9B;
+    box-shadow: 0px 0px 1px 0px lightgrey;
+}
+.box h2{
+    font-size: 18px;
+    color: #354650;
+}
+.box thead {
+    background:#F4F7F9;
+    font-size:12px;
+    color:#728B9B;
+}
+.box tbody tr td:nth-child(2){
+    font-weight: bold;
+    color:#354650;
+}
+.box tbody tr td:nth-child(3),.box tbody tr td:nth-child(4),.box tbody tr td:nth-child(5),.box tbody tr td:nth-child(6),.box tbody tr td:nth-child(7){
+    color:#354650;
+}
+
+.box tbody tr td:first-child > i:first-child{
+    margin-right:15px;
+    margin-left:15px;
+}
+.box tbody tr td{
+    height:35px;
+    line-height: 35px;
+}
+.box tbody tr td:last-child{
+    width:330px;
+}
+.optionLink i{
+    margin-right:5px;
+    color:#4FD0FF;
+    
+}
+.optionLink{
+    cursor:pointer;
+}
+.optionLink span{
+    padding-bottom:5px;
+    border-bottom:2px dashed #B8C5CD;
+}
+
+.box .btn-primary, .pop .btn-primary{
+    background: #4FD0FF;
+    border:1px solid #4FD0FF;
+    
+}
+.box .btn-primary:hover {
+    background: #00B9FF;
+}
+.box .btn-success{
+    background: #29C581;
+    border:1px solid #29C581;
+}
+.box .btn-success:hover{
+    background: #00B063;
+}
+.fa-ellipsis-v{
+    margin-left: 9px;
+    cursor: pointer;
+    color:#B9C6CE;
+}
+.fa-ellipsis-v:hover {
+    color:#728B9B;
+}
+.box tbody tr:nth-child(odd){
+    background:white;
+}
+.box tbody tr:nth-child(even){
+    background:#F4F7F9;
+}
+td{
+    position: relative;
+}
+.popup{
+    box-shadow:0px 0px 10px 0px lightgrey;
+    width:195px;
+    float:left;
+    padding-top:0px;
+    padding-bottom: 0px;
+    margin:0px;
+    position: absolute;
+    background: white;
+    z-index:2;
+    left:-10px;
+    top:0;
+    border-radius:5px;
+    overflow: hidden;
+}
+.popup li{
+    width:100%;
+    padding:0;
+    margin:0;
+    padding-left:15px;
+    cursor:pointer;
+}
+.popup li:hover{
+    background:#F4F7F9;
+}
+.popup .optionLink{
+    position: relative;
+    width: 100%;
+}
+.popup .optionLink:after{
+    content:" ";
+    position:absolute;
+    width:300px;
+    height:1px;
+    left:-20px;
+    bottom:-10px;
+    border-bottom:1px solid lightgrey;
+}
+.popup span{
+    border:0px;
+}
+.popup ul {
+    margin:0px;
+    padding:0px;
+    list-style: none;
+}
+.intoPopup {
+        box-shadow:0px 0px 20px 0px lightgrey;
+        width:145px;
+        float:left;
+        padding-top:0px;
+        padding-bottom: 0px;
+        margin:0px;
+        position: absolute;
+        background: white;
+        z-index:2;
+        right:0px;
+        top:0;
+        border-radius:7px;
+        overflow: hidden;
+    }
+    .intoPopup ul {
+        list-style: none;
+        padding:15px;
+        padding-top:5px;
+        padding-bottom:5px;
+        margin:0;
+        width:200px;
+    }
+    .intoPopup li:nth-child(2):hover{
+        color:#54D0FF;
+        cursor: pointer;
+    }
+    .fa-star.cy{
+        color:#F5C523;
+    }
+    .fa-star{
+        float:left;
+        font-size:20px;
+        color:#D9E2EA;
+    }
+    .raetPopup{
+        margin-left:auto;
+        margin-right:auto;
+        background: white;
+        z-index: 2;
+        margin:20px;
+        padding:20px;
+        height:310px;
+        box-shadow:0px 0px 10px 0px lightgrey;
+        border-radius:7px;
+    } 
+    .raetPopup span{
+        padding:2px;
+        width:300px;
+        display:flex;
+        padding-left:10px;
+    }
+    .pop > i:first-child{
+        color:#728B9B;
+        cursor: pointer;
+    }
+    .raetPopup textarea{
+        margin-top:10px;
+        margin-bottom:20px;
+        height:140px;
+        float:left;
+        border-radius:5px;
+        border:1px solid #DBE5EB;
+        background:#F5F9FC;
+        color:#748C9C;
+        padding-left:10px;
+        width:100%;
+        padding-left:10px;
+        padding-top:10px;
+        outline:0 none;
+        resize: none;
+    }
+    .raetPopup button{
+        width:100%;
+        float:left;
+    }
+    .raetPopup .bgo {
+        position: absolute;
+        background:rgba(108, 123, 134,.5);
+        width:100%;
+        height:100%;
+        top:0;
+        left:0;
+        padding:20px;
+        z-index:3;
+        margin:0;
+        text-align: center;
+        margin:0 auto;
+        line-height: 100%;
+        vertical-align: middle;
+    }
+    .pop{
+        width:300px;
+        margin-left: auto;
+        margin-right: auto;
+        background: white !important;
+        z-index: 6;
+        margin:0 auto;
+        padding: 20px;
+        height: 335px;
+        box-shadow: 0px 0px 10px 0px lightgrey;
+        border-radius: 7px;
+        text-align: left;
+    }
+    .pop h3{
+        font-size:18px;
+        font-weight: bold;
+    }
